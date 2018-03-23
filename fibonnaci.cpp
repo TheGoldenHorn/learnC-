@@ -4,13 +4,13 @@
 //#include<bits/stdc++.h>
 using namespace std;
 int main() {
-	int n1=0;
-	int n2=1;
-	for(int i=0;i<11;i++){
-		std::cout<<n1<<endl;
-		int sum=n1+n2;
-		n1=n2;
-		n2=sum;
+	int i=0,j=1,sum=0;
+	for(int k=1;k<=10;k++){
+		cout<<"for "<<k<<"\t fib "<<i<<endl;
+		sum=i+j;
+		i=j;
+		j=sum;
+
 	}
 	return 0;
 }
